@@ -1,0 +1,6 @@
+origin,destination,distance,demand
+DEL,BOM,1150,220
+DEL,CCU,1300,160
+BOM,BLR,840,180
+BLR,HYD,500,120
+MAA,COK,530,80
