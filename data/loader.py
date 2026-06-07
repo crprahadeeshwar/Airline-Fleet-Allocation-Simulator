@@ -14,9 +14,12 @@ def load_fleet(filepath):
                     name=row["name"],
                     seats=int(row["seats"]),
                     range=int(row["range"]),
-                    availableCount=int(row["availableCount"])
-                )
-            )
+                    availableCount=int(row["availableCount"]),
+                    fuelConsumption=float(row["fuelConsumption"]),
+                    operatingCost=float(row["operatingCost"]),     
+                    speed=float(row["speed"])
+
+            ))
 
     return fleet
 
@@ -32,7 +35,8 @@ def load_routes(filepath):
                     origin=row["origin"],
                     destination=row["destination"],
                     distance=int(row["distance"]),
-                    demand=int(row["demand"])
+                    demand=int(row["demand"]),
+                    ticketPrice=int(row["ticketPrice"])
                 )
             )
 

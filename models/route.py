@@ -6,3 +6,5 @@ class Route:
     destination: str
     distance: int
     demand: int
+    ticketPrice: int
+    

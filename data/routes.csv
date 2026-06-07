@@ -1,6 +1,6 @@
-origin,destination,distance,demand
-DEL,BOM,1150,220
-DEL,CCU,1300,160
-BOM,BLR,840,180
-BLR,HYD,500,120
-MAA,COK,530,80
+origin,destination,distance,demand,ticketPrice
+DEL,BOM,600,220,150
+DEL,CCU,650,160,120
+BOM,BLR,420,180,100
+BLR,HYD,250,120,800
+MAA,COK,265,80,600
