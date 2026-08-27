@@ -11,6 +11,7 @@ class Assignment:
     netProfit: float
     flightTime: float
     utilization: float 
+    
     def __post_init__(self):
         # Automatically rounds the float when the object is instantiated
         self.utilization = round(self.utilization, 2)

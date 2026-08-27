@@ -9,6 +9,7 @@ class Aircraft:
     fuelConsumption: float
     operatingCost: float
     speed: float
+    
     def __post_init__(self):
         # Automatically rounds the float when the object is instantiated
         self.fuelConsumption = round(self.fuelConsumption, 2)
