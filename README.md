@@ -15,7 +15,8 @@ A Python-based airline fleet allocation simulator.
 
 ![Example Output](image.png)
 
-(Note: Some values in the output may contain floating-point  rounding artifacts. This is a numerical represntation issue and does not affect the allocation logic.)
+Note: Some values in the output may contain floating-point rounding artifacts. This is a numerical representation issue and does not affect the allocation logic.
+
 ## Future Work
 
 - Linear Programming optimization
